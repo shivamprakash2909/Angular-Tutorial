@@ -1,0 +1,15 @@
+<p>event is bound using (eventName) = "functionName()" just say that something has happened</p>
+<button (click) = "increament()"> Increase</button>
+<p>Count : {{count()}}</p>
+
+
+<p>event is binded by using "$event" keyword with the function checkEvent() to pass what is the event is [asing to the function</p>
+<button (click)="checkEvent($event)">Check event</button>
+
+<input type="text" (input)= "updateUserName($event.target.value)">
+<p>Username: {{username}}</p>
+
+<form (submit) = "handleFormSubmit($event)">
+    <input type="text" placeholder="Enter your mail">
+    <button>submit</button>
+</form>
