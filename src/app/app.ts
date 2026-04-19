@@ -9,4 +9,18 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('angular_tutoriAL');
+  name: string = "";
+  city: string = "";
+  email: string = "";
+  updateName(name: string) {
+    this.name = name;
+  }
+
+
+  updateCity(city: string) {
+    this.city = city;
+  }
+  getEmail(email: string) {
+    this.email = email;
+  }
 }
