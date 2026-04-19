@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+}
+
+.counter-class {
+  text-align: center;
+}
+
+.inc_btn {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  border: 2px solid green;
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+.dec_btn {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+.res_btn {
+  width: 100px;
+  height: 50px;
+  background-color: burlywood;
+  color: white;
+  text-align: center;
+  border: 2px solid burlywood;
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+}

@@ -9,4 +9,16 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('angular_tutoriAL');
+  counter = signal(0);
+  increament() {
+    this.counter.update((c) => c + 1);
+  }
+  decreament() {
+    if (this.counter() > 0) {
+      this.counter.update((c) => c - 1)
+    }
+  }
+  reset() {
+    this.counter.set(0);
+  }
 }
