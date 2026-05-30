@@ -1,9 +1,8 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
@@ -16,10 +15,6 @@ export class App {
     this.name = name;
   }
 
-
-  updateCity(city: string) {
-    this.city = city;
-  }
   getEmail(email: string) {
     this.email = email;
   }
