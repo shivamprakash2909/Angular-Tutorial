@@ -12,7 +12,9 @@ export class Events {
   increament() {
     this.count.update((c) => c + 1);
   }
-
+  reset() {
+    this.count.set(0);
+  }
   //event binding
   checkEvent(e: any) {
     console.log(e)
